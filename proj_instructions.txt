@@ -1,0 +1,20 @@
+1) SET UP ENVIRONMENT
+	"transformers" for GPT-3 OR GPT-4 model
+	"faiss" for effecient similarity search
+	"flask" for creating a web interface
+	"pypdf2" extracting text from PDF
+	"sentence-transformers" for encoding the documents
+	
+	pip install transformers faiss-cpu flask PyPDF2 sentence-transformers
+
+2) PROVIDE FOLDER PERMISSIONS
+	sudo chmod u+w /mnt/c/dev/gen_ai/rag_genai/app.py
+
+	sudo chmod -R u+w rag_genai
+3) ADD CODE PATH TO nano ~/.bashrc   
+	export PATH="$PATH:/mnt/c/Users/pkudupu/AppData/Local/Programs/Microsoft VS Code/bin"
+	
+4) CREATE app.py 
+	Simple spark applocation to handle documents
+	
+
